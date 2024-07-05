@@ -124,8 +124,8 @@ class Main:
         self.canvas.fill(self.end_bg)
         if pygame.font:
             font = pygame.font.Font(None, 36)
-            time = font.render("END", 1, (255, 255, 255))
-            self.canvas.blit(time, (275, 280))
+            text = font.render("END", 1, (255, 255, 255))
+            self.canvas.blit(text, (275, 280))
 
 
 # Driver code
