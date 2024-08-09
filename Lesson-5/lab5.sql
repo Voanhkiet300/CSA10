@@ -1,9 +1,15 @@
 
 -- CREATE DATABASE
-CREATE DATABASE Northwind;
+-- CREATE DATABASE Northwind;
 USE Northwind;
 
 -- CREATE TABLES
+
+DROP TABLE IF EXISTS Customers;
+DROP TABLE IF EXISTS Products;
+DROP TABLE IF EXISTS Orders;
+DROP TABLE IF EXISTS OrderDetails;
+
 
 CREATE TABLE Customers(
   CustomerID INT PRIMARY KEY,
@@ -34,10 +40,6 @@ CREATE TABLE OrderDetails(
   Quantity INT
 );
 
-DROP TABLE IF EXISTS Customers;
-DROP TABLE IF EXISTS Products;
-DROP TABLE IF EXISTS Orders;
-DROP TABLE IF EXISTS OrderDetails;
 
 
 
