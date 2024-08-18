@@ -1,0 +1,13 @@
+Câu 1: 
+    cách 1: <DataFrame>.<tên cột>
+    Cách 2: <DataFrame>["<tên cột>"]
+    Cách 3: <DataFrame>.loc[:, "<tên cột>"]
+    Cách 4: <DataFrame>.iloc[:, "<số cột>"]
+
+Câu 2: Cho DataFrame df có cột Country chứa tên các quốc gia. Làm thế nào để kiểm tra cột Country có chứa ít nhất 2 quốc gia khác nhau hay không?
+print(len(df["Name"].describe()))
+Nếu giá trị trả về >= 2 thì cột đó có chứa ít nhất 2 quốc gia khác nhau
+
+Câu 3: C
+Câu 4: D
+Câu 5: B
