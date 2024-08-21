@@ -1,0 +1,9 @@
+Câu 1: Cấu trúc dữ liệu
+
+Câu 2: Mỗi cột cách nhau bằng dấu phẩy
+
+Câu 3: D
+Câu 4: D
+Câu 5: A
+
+
