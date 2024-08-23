@@ -109,7 +109,7 @@ df = pd.read_excel("Lesson-10\pokemon_data.xlsx")
 # tong ket du lieu ---------------
 # print(df.HP)
 # print(df.describe())
-print(df["Name"].describe())
+# print(df["Name"].describe())
 # print(df["HP"].sum())
 # print(df["HP"].sum())
 # print("value count", df.Legendary.value_counts())
@@ -118,7 +118,6 @@ print(df["Name"].describe())
 # in ra ten cua poke co hp > 150
 # filtered_df = df[df.HP > 150]
 # print(filtered_df.Name)
-
 
 # in ra ten cua poke co ten Chansey
 # filtered_df = df[df.Name == 'Chansey']

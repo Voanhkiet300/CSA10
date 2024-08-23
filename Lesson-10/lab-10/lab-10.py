@@ -6,10 +6,8 @@ data = pd.DataFrame(data=province_list, columns=col_list)
 
 
 def bai1():
-    print(f"List of provinces and cities: ", end=" ")
-    for i in range(len(data)-1) :
-        print(data.loc[i, "Name"], end=", ")
-    print(data.loc[len(data)-1, "Name"], end=".")
+
+    print("List of provinces and cities: " + ", ".join([i for i in data.loc[:, "Name"]]))
 
 def bai2():
     a = []
@@ -25,8 +23,8 @@ def bai3():
 def bai4():
     max_pop = data.loc[data['Population'].idxmax()]
     min_pop = data.loc[data['Population'].idxmin()]
-    print(f"Tỉnh/thành phố có dân số đông nhất:\t {max_pop['Name']}: \t{max_pop['Population']} người")
-    print(f"Tỉnh/thành phố có dân số ít nhất: \t {min_pop['Name']}: \t\t\t{min_pop['Population']} người")
+    print(f"Tỉnh/thành phố có dân số đông nhất:\t {max_pop['Name']}: \t{max_pop['Population'] *1000} người")
+    print(f"Tỉnh/thành phố có dân số ít nhất: \t {min_pop['Name']}: \t\t\t{min_pop['Population']*1000} người")
 
 def bai5():
     total_area = data['Area'].sum()
