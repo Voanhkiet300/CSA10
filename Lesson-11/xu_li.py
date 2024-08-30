@@ -32,7 +32,9 @@ df = pd.DataFrame({
 
 
 # thay đổi giá trị của cột & dòng:
-# them cot
+
+
+# them cot-------------------------------------------------
 # df["Gender"] = pd.Series(["Nam", "Nu", "Nam", "Nu", "Nu"])
 # df["Gender"] = ["Nam", "Nu", "Nam", "Nu", "Nu"]
 # print(df)
@@ -48,5 +50,5 @@ df = pd.DataFrame({
 # df2 = df.append({'Name': "Tran Van F", "Point": 10.0, "Qualify": False}, ignore_index=True)
 # print(df)
 
-df2 = pd.concat([df, pd.DataFrame({'Name': ["Tran Van F"], "Point": [10.0], "Qualify": [False]})], ignore_index=True)
-print(df2)
+# df2 = pd.concat([df, pd.DataFrame({'Name': ["Tran Van F"], "Point": [10.0], "Qualify": [False]})], ignore_index=True)
+# print(df2)
