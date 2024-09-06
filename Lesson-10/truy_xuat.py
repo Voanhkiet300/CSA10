@@ -67,8 +67,8 @@ df = pd.read_excel("Lesson-10\pokemon_data.xlsx")
 
 
 # nhieu cot + nhieu hang => dataFrame
-# data = df.loc[1:8, ["HP", "Attack"]]
-# print(data)
+data = df.loc[1:8, ["HP", "Attack"]]
+print(data)
 
 
 # truy xuat bang "iloc" dem

@@ -22,7 +22,8 @@ import pandas as pd
 
 
 
-# ve du lieu len bang do (cho so - 2D)
+
+# ve du lieu len bang do (cho so - 2D)------------------------
 import matplotlib.pyplot as plt
 df = pd.read_csv('Lesson-9\pokemon_data.csv')
 
